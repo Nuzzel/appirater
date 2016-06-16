@@ -321,7 +321,7 @@ static BOOL _alwaysUseMainBundle = NO;
 		[userDefaults setDouble:[[NSDate date] timeIntervalSince1970] forKey:kAppiraterFirstUseDate];
 		[userDefaults setInteger:1 forKey:kAppiraterUseCount];
 		[userDefaults setInteger:0 forKey:kAppiraterSignificantEventCount];
-		[userDefaults setBool:NO forKey:kAppiraterRatedCurrentVersion];
+//		[userDefaults setBool:NO forKey:kAppiraterRatedCurrentVersion];
 //		[userDefaults setBool:NO forKey:kAppiraterDeclinedToRate];
 		[userDefaults setDouble:0 forKey:kAppiraterReminderRequestDate];
 	}
@@ -369,7 +369,7 @@ static BOOL _alwaysUseMainBundle = NO;
 		[userDefaults setDouble:0 forKey:kAppiraterFirstUseDate];
 		[userDefaults setInteger:0 forKey:kAppiraterUseCount];
 		[userDefaults setInteger:1 forKey:kAppiraterSignificantEventCount];
-		[userDefaults setBool:NO forKey:kAppiraterRatedCurrentVersion];
+//		[userDefaults setBool:NO forKey:kAppiraterRatedCurrentVersion];
 //		[userDefaults setBool:NO forKey:kAppiraterDeclinedToRate];
 		[userDefaults setDouble:0 forKey:kAppiraterReminderRequestDate];
 	}
